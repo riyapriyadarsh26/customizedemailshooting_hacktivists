@@ -40,4 +40,7 @@ def send_email(subject, receiver_email, name, company_name):
     msg["To"] = receiver_email
     msg["BCC"] = sender_email
 
-    
+    msg.set_content(
+        f"""\
+        Greetings
+    )
