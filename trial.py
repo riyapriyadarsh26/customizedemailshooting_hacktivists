@@ -40,7 +40,7 @@ smtp_server = "smtp.gmail.com"
 smtp_port = 587
 smtp_username = "shuvayusarkar38@gmail.com"
 smtp_password = "walkwegirdzwlcpa"
-receiver_email="shuvayusarkar37@gmail.com"
+receiver_email="ssaravinth04@gmail.com"
 subject="Invitation to participate in the campus recruitment "
 body="I take this opportunity to introduce myself, This is Riya Priyadarshi, Sr. Placement Officer of National institute of technology Ponda,Goa. As a part of our continuous strives to bring the top companies to the college premises, We would like to request you to consider the possibilities of conducting your recruitment drive for B.Tech ( CS/IT, EC, EE, EIC, Mechanical, Electrical ),2023 Batch. We want to join hands with your esteemed organization and help our students to achieve a better career in your company. We will provide you quality entrant from required branches."
 send_email(sender_email,receiver_email,subject,body,smtp_server,smtp_port,smtp_username,smtp_password)
