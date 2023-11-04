@@ -22,21 +22,21 @@ envars = current_dir / ".env"
 load_dotenv(envars)
 
 #Read environment variables
-sender_email = os.getenv("EMAIL")
-Password_email = os.getenv("PASSWORD")
+sender_email = os.getenv("shuvayusarkar38@gmail.com")
+Password_email = os.getenv("walkwegirdzwlcpa")
 
 
 
 
 
 
-#actual function to send email
+#actual function to send email 
 
 def send_email(subject, receiver_email, name, company_name):
     #create the base text message.
     msg = EmailMessage()
     msg["Subject"] = subject
-    msg["From"] = formataddr(("NIT GOA Training and Placement Cell", f"{sender-email}"))
+    msg["From"] = formataddr(("NIT GOA Training and Placement Cell", f"{sender_email}"))
     msg["To"] = receiver_email
     msg["BCC"] = sender_email
 
