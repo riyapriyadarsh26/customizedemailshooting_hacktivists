@@ -32,4 +32,12 @@ Password_email = os.getenv("PASSWORD")
 
 #actual function to send email
 
-def send_email(subject, receiver_email, name, company)
+def send_email(subject, receiver_email, name, company_name):
+    #create the base text message.
+    msg = EmailMessage()
+    msg["Subject"] = subject
+    msg["From"] = formataddr(("NIT GOA Training and Placement Cell", f"{sender-email}"))
+    msg["To"] = receiver_email
+    msg["BCC"] = sender_email
+
+    
