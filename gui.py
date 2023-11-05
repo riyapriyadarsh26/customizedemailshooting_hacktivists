@@ -3,7 +3,6 @@ import streamlit as st
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-#hi
 
 # Title
 st.title("Customized Email Sender")
