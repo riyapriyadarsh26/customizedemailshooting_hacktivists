@@ -24,7 +24,7 @@ load_dotenv(envars)
 #Read environment variables
 sender_email = os.getenv("shuvayusarkar38@gmail.com")
 Password_email = os.getenv("walkwegirdzwlcpa")
-m
+
 
 
 
@@ -42,9 +42,5 @@ def send_email(subject, receiver_email, name, company_name):
 
     msg.set_content(
         f"""\
-        I take this opportunity to introduce myself, This is Riya Priyadarshi, Sr. Placement Officer of National institute of technology Goa,</p>
-          <p>Ponda,Goa. As a part of our continuous strives to bring the top companies to the college premises, We would like to request you to</p>
-           <p> consider the possibilities of conducting your recruitment drive for B.Tech ( CS/IT, EC, EE, EIC, Mechanical, Electrical ),</p>
-             <P>2023 Batch. We want to join hands with your esteemed organization and help our students to achieve a better career in your</p>
-               <P>company. We will provide you quality entrant from required branches
+        Greetings
     )
